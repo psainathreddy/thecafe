@@ -1,0 +1,314 @@
+* {
+    margin: 0px;
+    font-family: "inconsolata", sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    z-index: 999;
+    position: fixed;
+    top: 0px;
+}
+
+.a1,
+.a2,
+.a3,
+.a4 {
+    color: white;
+    text-decoration: none;
+    padding: 10px 135px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.a1:hover,
+.a2:hover,
+.a3:hover,
+.a4:hover {
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+}
+
+.container {
+    background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+    min-height: 75%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.thecafe {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 84px;
+    letter-spacing: 6px;
+}
+
+.container-2 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    color: white;
+    width: 100%;
+    bottom: 0px;
+}
+
+.open {
+    background-color: black;
+    width: fit content;
+    padding: 6px;
+    color: white;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.row>.about {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.para {
+    width: 680px;
+    color: black;
+    line-height: 28px;
+    text-align: start;
+    font-size: 18px;
+}
+
+.prod>.par {
+    width: 680px;
+    font-size: 18px;
+    /* border: 1px solid black; */
+    background-color: gainsboro;
+    border-left: 6px solid;
+    border-color: grey;
+    padding: 20px;
+}
+
+.img-container {
+    width: 680px;
+    /* border: 1px solid black; */
+}
+
+.img-container>img {
+    width: 100%;
+    display: block;
+}
+
+.opening {
+    width: 680px;
+}
+
+.owner {
+    width: 680px;
+}
+
+.menu {
+    width: fit-content;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.the {
+    color: white;
+    padding: 10px;
+    word-spacing: 10px;
+    font-size: 26px;
+    letter-spacing: 5px;
+}
+
+.img2 {
+    width: 680px;
+    /* border: 2px solid black; */
+}
+
+.img2>img {
+    width: 100%;
+    display: block
+}
+
+.where {
+    width: fit-content;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.findus {
+    width: 680px;
+    color: black;
+
+}
+
+.img3 {
+    width: 680px;
+    /* border: 2px solid black; */
+}
+
+.img3>img {
+    width: 100%;
+    display: block;
+}
+
+.last {
+    width: 680px;
+    /* border: 2px solid black; */
+}
+
+span {
+    width: fit-content;
+    /* background-color: black; */
+    color: white;
+    padding: 4px;
+}
+
+.lastpara {
+    color: black;
+    padding: 10px;
+}
+
+.table {
+    width: 680px;
+}
+
+.table>reserve {
+    color: black;
+}
+
+.table>input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px;
+}
+
+.message {
+    width: fit-content;
+    background-color: black;
+    transition: 0.4s;
+
+}
+
+.message>.send {
+    color: white;
+    padding: 10px;
+}
+
+.message:hover {
+    background-color: grey;
+    color: black;
+}
+
+.message:hover>.send {
+    color: black;
+}
+
+.powered {
+    width: 1360px;
+    height: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 5px;
+    color: dark black;
+}
+
+.powered>a:hover {
+    color: green;
+}
+
+.eatmain {
+    width: 680px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.sai {
+    display: flex;
+    justify-content: space-between;
+    gap: 3px;
+    border: 1px solid gainsboro;
+    padding: 6px;
+    width: 680px;
+    height: 60px;
+}
+
+.eat,
+.drink {
+    border: 2px solid black;
+    padding: 10px;
+    width: 50%;
+    /* height:50px; */
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.eat>a {
+    text-decoration: none;
+    color: black;
+}
+
+.drink>a {
+    text-decoration: none;
+    color:black;
+}
+.eat:hover>a{
+    color:white;
+}
+.eat:hover{
+    background-color: black;
+}
+.drink:hover{
+    background-color: black;
+}
+.drink:hover>a{
+    color:white;
+}
+iframe {
+    width: 680px;
+    height: 500px;
+    padding: 10px;
+}
